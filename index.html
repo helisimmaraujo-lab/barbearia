@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button id="btn-cor">mudar cor do titulo</button>
+    <nav class="navbar">
+      <h1 class="logo">Jamamerson cortes</h1>
+      <ul class="menu">
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h2>O melhor corte da ilha</h2>
+      <p>Qualidade e estilo para você se sentir bem!</p>
+      <a href="#contato" class="botao">Agende agora</a>
+    </section>
+    <section class="servicos" id="servicos">
+      <h2>Nossos Serviços</h2>
+      <div class="container">
+        <div class="card">cortes</div>
+        <div class="card">barba</div>
+        <div class="card">bigode</div>
+      </div>
+    </section>
+    <section class="contato">
+      <h2 id="contato">Contato</h2>
+      <p>Endereço: Rua das mangueiras</p>
+      <p>Telefone: 91 9 84024822</p>
+      <form>
+        <input type="text" id="nome" placeholder="Seu nome">
+        <input type="tel" id="telefone" placeholder="Seu telefone">
+        <input type="text" id="serviço" placeholder="Serviço desejado (ex: corte)">
+        <button id="botao-agendar">Agendar</button>
+      </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
